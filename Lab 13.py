@@ -28,6 +28,6 @@ except ZeroDivisionError:
 
     try:
         my_list = [1, 2, 3, 4, 5]
-        print("Element at index 10:", my_list[7])
+        print("Value at index 9:", my_list[7])
     except IndexError:
         print("Error: Value is out of range!")
